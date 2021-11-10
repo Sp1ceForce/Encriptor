@@ -80,15 +80,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Cyphering\Cyphering.csproj">
-      <Project>{b522ec1b-8df6-441d-970c-84e05a30577f}</Project>
-      <Name>Cyphering</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Helpers\Helpers.csproj">
-      <Project>{64932d91-30c7-4e4e-8b13-064a5629a917}</Project>
-      <Name>Helpers</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
